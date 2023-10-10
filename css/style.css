@@ -1,0 +1,65 @@
+/* General Style */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+nav{
+    background-color: white;
+}
+
+div{
+    background-color: white;
+}
+
+.coloreblu{
+    background-color: rgb(69 171 234);
+}
+
+.coloreviola{
+    background-color: rgb(155 113 227);
+}
+
+.coloreverde{
+    background-color: rgb(100 192 169);
+}
+
+.colorearancio{
+    background-color: rgb(242 158 51);
+}
+
+.colorefucsia{
+    background-color: rgb(216 99 161);
+}
+
+.coloreverdelime{
+    background-color: rgb(176 201 38);
+}
+
+
+
+/* Nav Style */
+
+.navbutton{
+
+}
+
+#addsection{
+    color: lightgray;
+    background-color: white;
+}
+
+
+
+/* Main Style */
+
+.labelgeometry{
+    color: white;
+}
