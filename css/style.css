@@ -4,15 +4,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: white;
 }
 
 body{
     background-color: whitesmoke;
-}
-
-nav{
-    background-color: white;
 }
 
 div{
@@ -21,45 +16,148 @@ div{
 
 .coloreblu{
     background-color: rgb(69 171 234);
+    color: white;
+    border-radius: 15px;
+    padding: 7px 10px;
+    font-size: small;
 }
 
 .coloreviola{
     background-color: rgb(155 113 227);
+    color: white;
+    border-radius: 15px;
+    padding: 7px 10px;
+    font-size: small;
 }
 
 .coloreverde{
     background-color: rgb(100 192 169);
+    color: white;
+    border-radius: 15px;
+    padding: 7px 10px;
+    font-size: small;
 }
 
 .colorearancio{
     background-color: rgb(242 158 51);
+    color: white;
+    border-radius: 15px;
+    padding: 7px 10px;
+    font-size: small;
 }
 
 .colorefucsia{
     background-color: rgb(216 99 161);
+    color: white;
+    border-radius: 15px;
+    padding: 7px 10px;
+    font-size: small;
 }
 
 .coloreverdelime{
     background-color: rgb(176 201 38);
+    color: white;
+    border-radius: 15px;
+    padding: 7px 10px;
+    font-size: small;
 }
+
+/* Header Style */
+
+header{
+    background-color: white;
+    height: 70px;
+}
+
+#logo{
+    padding: 10px 0 10px 10px;
+    vertical-align: middle;
+}
+
+h1{
+    display: inline;
+}
+
 
 
 
 /* Nav Style */
 
-.navbutton{
+nav{
+    width: 75%;
+    height: 60px;
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin: 40px auto 2px;
+    padding: 25px 0 0 60px;
+}
 
+#navbutton{
+    color: white;
+    background-color: rgb(69 171 234);
+    border: 1px solid rgb(69 171 234);
+    border-radius: 3px;
+    padding: 7px 10px;
+    
 }
 
 #addsection{
     color: lightgray;
     background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    padding: 7px 10px;
 }
 
 
 
 /* Main Style */
 
+main{
+    width: 75%;
+    height: auto;
+    margin: 0 auto 10px;
+    background-color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 25px 0 25px 60px;
+}
+
+main section{
+    
+}
+
+h3{
+    display: inline;
+}
+
 .labelgeometry{
     color: white;
+}
+
+section div{
+    margin: 25px 0;
+}
+
+.check::after{
+    display: inline-block;
+    text-align: center;
+    width: 20px;
+    height: auto;
+    content: "\2713";
+    color: #62c0a9;
+    border: solid 1px #62c0a9;
+    border-radius: 50%;
+}
+
+.cross::after{
+    display: inline-block;
+    text-align: center;
+    width: 20px;
+    height: auto;
+    content: '\2716';
+    color: red;
+    border: solid 1px red;
+    border-radius: 50%;
 }
